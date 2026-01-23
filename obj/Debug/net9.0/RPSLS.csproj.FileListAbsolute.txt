@@ -1,0 +1,7 @@
+C:\Users\Eliasaf\OneDrive\Academy\Season 8 Level 2\Week 3\RPSLS\bin\Debug\net9.0\RPSLS.exe
+C:\Users\Eliasaf\OneDrive\Academy\Season 8 Level 2\Week 3\RPSLS\bin\Debug\net9.0\RPSLS.dll
+C:\Users\Eliasaf\OneDrive\Academy\Season 8 Level 2\Week 3\RPSLS\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Eliasaf\OneDrive\Academy\Season 8 Level 2\Week 3\RPSLS\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Eliasaf\OneDrive\Academy\Season 8 Level 2\Week 3\RPSLS\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Eliasaf\OneDrive\Academy\Season 8 Level 2\Week 3\RPSLS\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Eliasaf\OneDrive\Academy\Season 8 Level 2\Week 3\RPSLS\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
