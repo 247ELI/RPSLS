@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPSLS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7899fc9fbf3bbef256a01554fd49d363db6a13d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f00767f9b9d104e66293ad5395b89b70afa7bcb")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPSLS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPSLS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
