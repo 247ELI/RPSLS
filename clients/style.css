@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #12383b, #071b1d);
+    color: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide { display: none; }
+.show { display: flex; }
+
+h1 {
+    background: #a7c4c7;
+    color: #0b1f21;
+    padding: 15px 40px;
+    border-radius: 12px;
+    font-size: 2rem;
+    margin-bottom: 60px;
+    box-shadow: 0 6px 12px #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.menuBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.primaryBtn, .secondaryBtn {
+    padding: 15px 50px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 220px;
+    box-shadow: 0 5px 10px #000000;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.primaryBtn { 
+    background: #d7eef0;
+    color: #0b1f21;
+}
+
+.secondaryBtn {
+    background: #f0d7d7;
+    color: #210b0b;
+}
+
+.primaryBtn:hover, .secondaryBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px #000000;
+}
+
+.moveButtons {
+    position: relative;
+    width: 520px;
+    height: 520px;
+    margin: 0 auto 30px auto;
+}
+
+.moveButtons button {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background: #b9dfe3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 6px 12px #000000;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.rulesBox {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: auto;
+}
+
+.moveButtons img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    pointer-events: none;
+}
+
+#rockBtn     { top: 0; left: 50%; transform: translate(-50%, 0); }
+#paperBtn    { top: 80px; right: 40px; }
+#scissorsBtn { bottom: 150px; right: 110px; }
+#lizardBtn   { bottom: 150px; left: 110px;  }
+#spockBtn    { top: 80px; left: 40px; }
+
+.pickText {
+    background: #a7c4c7;
+    color: #0b1f21;
+    padding: 15px 40px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0 6px 12px #000000;
+}
+
+.resultBox {
+    background: #a7c4c7;
+    color: #0b1f21;
+    padding: 20px 40px;
+    border-radius: 12px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 6px 12px #000000;
+    font-weight: bold;
+}
+
+.win  { color: #0a7a28; font-weight: 900; }
+.lose { color: #b00020; font-weight: 900; }
+
+.resetBtn {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    padding: 10px 25px;
+    border-radius: 12px;
+    border: none;
+    background: #d7eef0;
+    color: #0b1f21;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 10px #000000;
+}
+
+.resetBtn:hover {
+    transform: scale(1.05);
+}
+
+.scoreBoard {
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#instructionText {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}

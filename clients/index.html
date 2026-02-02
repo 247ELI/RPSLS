@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RPSLS Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="homePage" class="page show">
+        <h1>Rock Paper Scissors<br>Lizard Spock</h1>
+
+        <div class="menuBox">
+            <button id="cpuBtn" class="primaryBtn">Player vs CPU</button>
+            <button id="pvpBtn" class="primaryBtn">Player vs Player</button>
+            <button id="rulesBtn" class="secondaryBtn">How to Play</button>
+        </div>
+    </div>
+
+    <div id="rulesPage" class="page hide">
+        <h1>How To Play</h1>
+
+        <div class="rulesBox">
+            <img id="rulesImage" src="./Photos/Screenshot 2026-02-01 203458.png" alt="Rules">
+        </div>
+
+        <button id="homeFromRulesBtn" class="secondaryBtn">Home</button>
+    </div>
+
+    <div id="roundPage" class="page hide">
+        <h1>Select Rounds</h1>
+        <p>How many wins to end the match?</p>
+
+        <div class="menuBox">
+            <button id="round1Btn" class="primaryBtn">Best of 1</button>
+            <button id="round3Btn" class="primaryBtn">Best of 5 (First to 3)</button>
+            <button id="round4Btn" class="primaryBtn">Best of 7 (First to 4)</button>
+        </div>
+
+        <button id="backBtn">Back</button>
+    </div>
+
+    <div id="switchPage" class="page hide">
+        <h1>Hidden Turn</h1>
+        <p>Pass the device to <span id="nextPlayerName">Player 2</span></p>
+        <p>(No peeking!)</p>
+
+        <button id="readyBtn" class="primaryBtn">I am Ready</button>
+    </div>
+
+    <div id="gamePage" class="page hide">
+
+        <div class="scoreBoard">
+            <div>P1: <span id="player1Score">0</span></div>
+            <div>Target: <span id="targetScore">1</span></div>
+            <div id="cpuName">CPU: <span id="player2Score">0</span></div>
+        </div>
+
+        <p id="instructionText">Choose your move:</p>
+
+        <div class="moveButtons">
+            <button id="rockBtn"><img src="./Photos/3bdb2575-9a92-42f8-8472-bb78c7bd118a_720x405.jpg" width="100"><br></button>
+            <button id="paperBtn"><img src="./Photos/download.png" width="100"><br></button>
+            <button id="scissorsBtn"><img src="./Photos/download.jpg" width="100"><br></button>
+            <button id="lizardBtn"><img src="./Photos/download (1).jpg" width="100"><br></button>
+            <button id="spockBtn"><img src="./Photos/download (2).jpg" width="100"><br></button>
+        </div>
+
+    </div>
+
+    <div id="resultPage" class="page hide">
+
+        <div class="resultBox">
+            <h3>Player 1</h3>
+            <h3 id="cpuLabel">CPU</h3>
+        </div>
+
+        <h1 id="winText">You Win!</h1>
+        <p id="whyText">Lizard poisons Spock</p>
+
+        <button id="nextRoundBtn">Next Round</button>
+        <br><br>
+        <button id="quitBtn" class="secondaryBtn">Quit to Menu</button>
+
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
