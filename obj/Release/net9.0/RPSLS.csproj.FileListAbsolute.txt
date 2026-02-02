@@ -154,3 +154,4 @@ C:\Users\Eliasaf\OneDrive\Academy\Season 8 Level 2\Week 3\RPSLS\obj\Release\net9
 C:\Users\Eliasaf\OneDrive\Academy\Season 8 Level 2\Week 3\RPSLS\obj\Release\net9.0\RPSLS.pdb
 C:\Users\Eliasaf\OneDrive\Academy\Season 8 Level 2\Week 3\RPSLS\obj\Release\net9.0\RPSLS.genruntimeconfig.cache
 C:\Users\Eliasaf\OneDrive\Academy\Season 8 Level 2\Week 3\RPSLS\obj\Release\net9.0\ref\RPSLS.dll
+C:\Users\Eliasaf\OneDrive\Academy\Season 8 Level 2\Week 3\RPSLS\obj\Release\net9.0\RPSLS.sourcelink.json
