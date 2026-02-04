@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPSLS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3212b5e3fc3b99b2c09b52a1c0ccd4a53dca40b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab4610d52221fc9a3794d51da7a08ae7c36169dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPSLS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPSLS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
