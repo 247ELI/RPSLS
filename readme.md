@@ -1,0 +1,1 @@
+Peer Review (Brandon Estrada) - I like the website design you went for. Your code looks clean and is functional, your website is also functional. I am able to select the game mode and the amount of rounds, and each mode keeps track of the score as well. Great job!
